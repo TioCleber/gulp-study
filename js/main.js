@@ -1,0 +1,1 @@
+"use strict";var parseUser=function(){return"Hello ".concat(user.firstName," ").concat(user.lastName)},user={firstName:"Cleber",lastName:"zacher"};console.log("user ->",user);
