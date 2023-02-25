@@ -66,6 +66,8 @@ function browser() {
   });
 }
 
+const build = gulp.parallel(compileSass, compileCss, compileJs);
+
 const defaultTask = gulp.parallel(
   watch,
   browser,
@@ -75,6 +77,7 @@ const defaultTask = gulp.parallel(
 );
 
 exports.default = defaultTask;
+exports.build = build;
 exports.watch = watch;
 exports.compileSass = compileSass;
 exports.compileCss = compileCss;

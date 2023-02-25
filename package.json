@@ -5,11 +5,11 @@
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "gulp watch",
+    "watch": "gulp",
     "compileSass": "gulp compileSass",
     "compileCss": "gulp compileCss",
     "compileJs": "gulp compileJs",
-    "build": "gulp"
+    "build": "gulp build"
   },
   "author": "",
   "license": "ISC",
